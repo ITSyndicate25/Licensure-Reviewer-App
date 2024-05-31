@@ -1,0 +1,207 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.btn {
+    display: block;
+    width: 60%; /* Adjust the width as needed */
+    max-width: 300px; /* Set a maximum width if necessary */
+    margin: 20px auto; /* Center horizontally with some vertical spacing */
+    padding: 10px; /* Adjust padding */
+    color: #fff;
+    font-size: 1.2vw; /* Adjust the font size relative to the viewport width */
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Arial', sans-serif; /* Change font family */
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #2C61C7, #FFE665, #ffeb3b, #03a9f4);
+    background-size: 400%;
+    border-radius: 20px; /* Adjust border radius */
+    text-align: center;
+    transition: background-position 0.5s;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+    background-position: 100%;
+}
+
+.lists {
+    display: flex;
+    justify-content: center;
+}
+
+.white-text {
+    color: #fff; /* White color */
+    font-family: 'Roboto', sans-serif; /* Change font family */
+}
+
+.list2 {
+    width: 80%;
+    margin: 5px auto; /* Add some vertical spacing */
+    padding: 0; /* Remove default padding */
+    list-style-type: none;
+}
+
+.list3 {
+    border-bottom: 2px solid #fff; /* White border bottom */
+    margin: 10px 0; /* Add some vertical spacing */
+    padding: 10px 0; /* Add padding */
+}
+
+.lading_bcks {
+    width: 100%;
+    height: 40%;
+    background-image: url("bck_login.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 15%;
+    margin: 0;
+}
+
+.tagline {
+    color: white;
+}
+
+.tagline_con {
+    width: 25%;
+    margin-left: 5%;
+}
+
+.studynow_btn {
+    width: 140px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.studynow_btn:hover {
+    background-color: #FFE665;
+    box-shadow: 0px 15px 20px rgb(88, 89, 10);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.b1, .b2, .b3 {
+    width: 15%;
+    background-color: rgb(255, 255, 255);
+    margin: 5%;
+    height: 100px;
+    box-shadow: 5px 5px 5px rgb(62, 62, 62); /* Add a shadow here */
+    border-radius: 5%;
+}
+
+.bcontainer {
+    display: flex;
+    margin-left: 17%;
+}
+
+@media screen and (max-width: 991px) {
+    .login_card {
+        width: 90%; 
+        margin-top: 30%;
+        height: 60%;/* Adjusted for mobile */
+    }
+
+    .btn {
+        width: 80%; /* Adjusted for mobile */
+        font-size: 4vw; /* Adjust the font size relative to the viewport width */
+    }
+
+    .list2 {
+        width: 90%; /* Adjusted for mobile */
+    }
+    
+    .tagline_con{
+
+    margin-top: 20%;
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    padding-top: 20%;
+  
+
+
+    }
+
+    .bcontainer{
+        display: grid;
+        margin-left: 28%;
+        margin-top: 20%;
+      }
+
+    .b1, .b2, .b3 {
+
+        width: 50%;
+       
+
+
+    }
+
+    .lading_bck {
+        width: 100%;
+        height: 50%;
+        position: fixed;
+        background-image: url("bck_login.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        
+      }
+
+      .navbtn,.container {
+       
+        display: none;
+      }
+
+      .navbar{
+
+        height: 15%;
+      }
+      .left,.titles{
+
+       margin-top: -15%;
+      }
+      .user_info{
+        margin-top: -100%;
+
+      }
+      .titles{
+        width: auto;
+        border:2px solid;
+        
+      }
+      .hiders{
+        display: block;
+      }
+
+      .search_box {
+        width: 100px;
+        height: fit-content;
+        position: absolute;
+        margin-left: 75%;
+        margin-top: 4%;
+     
+        
+       
+      }
+
+
+      
+     
+      
+}
